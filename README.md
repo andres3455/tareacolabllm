@@ -59,7 +59,7 @@ a partir de aqui podemos interactuar con el modelo
 
 ## Evidencias 
 
-
+![image](https://github.com/user-attachments/assets/38fd3ca5-73ff-4ede-8001-ec164fe76964)
 
 
 
