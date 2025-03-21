@@ -30,6 +30,36 @@ debemos ingresar y crear una cuenta en langsmith, al hacer eso, creamos un nuevo
 https://smith.langchain.com/o/92d0b5f1-fc75-49c1-b2a9-45d14ce7a89a
 ```
 
+configuramos las variables de entorno
+
+```
+import getpass
+import os
+
+
+os.environ["LANGSMITH_TRACING"] = "true"
+os.environ["LANGSMITH_API_KEY"] = getpass.getpass()
+```
+ingresamos la api key de langsmith y utilizamos un modelo de lenguaje y ingreamos la Api key de OpenAi que nos suministro el profesor
+
+```
+pip install -qU "langchain[openai]"
+
+import getpass
+import os
+
+if not os.environ.get("OPENAI_API_KEY"):
+  os.environ["OPENAI_API_KEY"] = getpass.getpass("Enter API key for OpenAI: ")
+
+from langchain.chat_models import init_chat_model
+
+model = init_chat_model("gpt-4o-mini", model_provider="openai")
+```
+a partir de aqui podemos interactuar con el modelo
+
+## Evidencias 
+
+
 
 
 
