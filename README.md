@@ -1,4 +1,4 @@
-# Creando una aplicación de LLM sencilla con modelos de chat y plantillas de sugerencias
+# Creando una aplicación de LLM sencilla con modelos de chat 🤖 y plantillas de sugerencias 📝
 
 ### Dessarollado por: 
 * Andrés Felipe Rodríguez Chaparro
